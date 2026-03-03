@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 3.16)
+cmake_minimum_required(VERSION 2.8)
 
-project(openVVC VERSION 1.1.0 LANGUAGES C)
+project(openVVC VERSION 1.0.0 LANGUAGES C)
 
 option(ENABLE_SIMD "Enable SIMD optimizations" ON)
 option(ENABLE_ARM_ASM "Enable ARM assembly optimizations" OFF)
