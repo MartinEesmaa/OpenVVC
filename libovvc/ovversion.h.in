@@ -1,0 +1,13 @@
+#ifndef OVVERSION_H
+#define OVVERSION_H
+
+#define VER_MAJOR @VER_MAJOR@
+#define VER_MINOR @VER_MINOR@
+#define VER_REVISION @VER_REVISION@
+#define VER_BUILD "@VER_BUILD@"
+#define OV_VERSION "@OV_VERSION@"
+
+#define OV_STR(s) #s
+#define OV_VERSION_STR(maj,min,rev,build) OV_STR(maj)OV_STR(.)OV_STR(min)OV_STR(.)OV_STR(rev)OV_STR(-)build
+
+#endif // OVVERSION_H

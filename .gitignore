@@ -9,7 +9,6 @@ libovvc/ovversion.h
 libovvc/ovconfig.h
 libopenvvc.pc
 configure
-*.in
 *~
 **/Makefile
 
@@ -30,7 +29,7 @@ libtool
 .ovnreg_*
 
 # Build folder
-build/*
+build*/*
 build-aux/*
 **/.deps/*
 **/.libs/*

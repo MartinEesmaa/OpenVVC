@@ -1,0 +1,11 @@
+/* Generated ovconfig.h for CMake builds */
+
+#cmakedefine01 HAVE_POSIX_MEMALIGN
+#cmakedefine01 HAVE_ALIGNED_MALLOC
+#cmakedefine01 HAVE_SSE4_1
+#cmakedefine01 HAVE_AVX2
+#cmakedefine01 ENABLE_SLHDR
+#cmakedefine01 ARCH_AARCH64_ASSEMBLY
+#cmakedefine01 ARM_SIMDE
+#cmakedefine01 SIMDE_NO_CHECK_IMMEDIATE_CONSTANT
+#cmakedefine01 EXCLUDE_FOR_CLANG
